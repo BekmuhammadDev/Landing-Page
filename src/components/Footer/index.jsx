@@ -1,11 +1,11 @@
 import React from 'react';
 import Button from '../Button';
 import Container from '../Container';
-import FacebookIcon from "../../assets/icon/facebook.svg"
-import InstagramIcon from "../../assets/icon/instagram.svg"
-import LinkedInIcon from "../../assets/icon/linkedin.svg"
-import TwitterIcon from "../../assets/icon/twitter.svg"
-import YoutubeIcon from "../../assets/icon/youtube.svg"
+import FacebookIcon from "../../assets/icon/facebook.svg";
+// import InstagramIcon from "../../assets/icon/instagram.svg";
+import LinkedInIcon from "../../assets/icon/linkedin.svg";
+import TwitterIcon from "../../assets/icon/twitter.svg";
+import YoutubeIcon from "../../assets/icon/youtube.svg";
 import "./style.css"
 
 const index = () => {
@@ -40,7 +40,7 @@ const index = () => {
                             <a href="#"><img src={LinkedInIcon} alt="LinkedIn" /></a>
                             <a href="#"><img src={TwitterIcon} alt="Twitter" /></a>
                             <a href="#"><img src={YoutubeIcon} alt="Youtube" /></a>
-                            <a href="#"><img src={InstagramIcon} alt="Instagram" /></a>
+                            {/* <a href="#"><img src={InstagramIcon} alt="Instagram" /></a> */}
                         </div>
                     </div>
                 </div>
