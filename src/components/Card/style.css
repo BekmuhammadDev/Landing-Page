@@ -1,0 +1,28 @@
+
+.card {
+    width: 255px;
+    background-color: #ffffff;
+    border: none;
+    overflow: hidden;
+  }
+
+  .card-image {
+    width: 20%;
+    height: 40px;
+    object-fit: cover;
+  }
+  
+ 
+  .card-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #091133;
+  }
+  
+ 
+  .card-description {
+    font-size: 12px;
+    font-weight: 400;
+    color: #5D6970;
+  }
+  

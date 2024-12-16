@@ -1,0 +1,62 @@
+header {
+    padding: 8px;
+}
+
+/* Umumiy navbar konteyneri */
+.navbar-container {
+    width: 100%;
+}
+
+/* Navbarni joylashtirish */
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 370px;
+    /* Ikkita element orasidagi masofa */
+    align-items: center;
+    /* Vertikal markazlashtirish */
+    margin: 0 auto;
+    /* Sahifada o‘rtada bo‘lishi uchun */
+}
+
+/* Logotip */
+.navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #37447E;
+    /* Moviy rang */
+    text-align: center;
+}
+
+/* Navigatsiya ro‘yxati */
+.navbar-links {
+    display: flex;
+    gap: 1.5rem;
+    /* Linklar orasidagi masofa */
+    list-style: none;
+    /* Markerlarni olib tashlash */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigatsiya elementlari */
+.navbar-item {
+    margin: 0;
+}
+
+/* Linklar */
+.navbar-link {
+    text-decoration: none;
+    /* Chiziqni olib tashlash */
+    font-size: 1rem;
+    color: #505F98;
+    /* Qora rang */
+    transition: color 0.3s ease;
+    /* O‘tish animatsiyasi */
+}
+
+/* Hover effekti */
+.navbar-link:hover {
+    color: #007bff;
+    /* Hoverda rangni o‘zgartirish */
+}

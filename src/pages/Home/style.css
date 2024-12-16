@@ -1,0 +1,99 @@
+/* Home.module.css */
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .main {
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .wrapper{
+    margin-top: 243px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 500px;
+  }
+
+  .wrapper-right{
+    margin-left: 96px;
+  }
+
+  h1{
+    font-size: 50px;
+    font-weight: 500;
+    color: #091133;
+  }
+
+  p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #505F98;
+    margin-bottom: 69px;
+  }
+  
+  .wrap-btn{
+    display: flex;
+    gap: 30px;
+  }
+
+  .wrap-img{
+    position: absolute;
+    top: 0;
+    right: -10px;
+    z-index: -50;
+  }
+
+  .wrap-group{
+    position: absolute;
+    right: 0;
+  }
+
+  /* -------------------------------------------------------------------------- */
+
+  .powerful{
+    display: flex;
+    margin-bottom: 160px;
+    gap: 100px;
+    justify-content: center;
+  }
+
+  .powerful-img{
+    width: 540px;
+    height: 524px;
+  }
+
+  .wrap-card{
+    display: flex;
+    gap: 30px;
+  }
+
+  /* --------------------------------------------------------------------------- */
+  .wrap-about{
+    display: flex;
+    gap: 165px;
+  }
+
+  /* --------------------------------------------------------------------------- */
+
+  .price-section{
+    background-color: #e7ecffc9;
+  }
+
+  .wrap-price{
+    justify-content: center;
+    text-align: center;
+    padding-top: 237px;
+    padding-bottom: 172px;
+  }
+  small{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .price-num{
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0;
+  }
