@@ -22,7 +22,7 @@ const Index = () => {
                             </li>
                         </ul>
                         <div className="navbar-logo">Landing</div>
-                        <Button text={'Buy Now'} />
+                        <Button text={'Buy Now'} className={'buynow-btn'}/>
 
                     </nav>
                 </div>

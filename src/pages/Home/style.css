@@ -97,3 +97,45 @@
     font-weight: 500;
     margin: 0;
   }
+  
+
+  @media (max-width: 767px){
+
+    .wrapper{
+      display: block;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      justify-content: center;
+    }
+
+    .wrapper-right{
+      margin-left: 0;
+    }
+
+    h1{
+      font-size: 30px;
+      text-align: center;
+    }
+
+    .wrapper-left{
+      display: none;
+    }
+    /* /////////////////////////////////// */
+
+    .powerful{
+      display: block;
+    }
+
+    .powerful-text{
+      display: none;
+    }
+
+    .powerful-left{
+      display: block;
+    }
+    .powerful-img{
+      width: 360px;
+      height: 334px;
+    }
+    
+  }

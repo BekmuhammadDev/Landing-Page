@@ -62,3 +62,28 @@ footer{
     align-items: center;
     gap: 30px;
 }
+
+@media (max-width: 767px){
+
+    .navbar-container{
+        display: block;
+    }
+
+    .navbar-footer{
+        padding: 30px 0;
+    }
+
+    .navbar-logo{
+        display: none;
+    }
+
+    .nav-links{
+        display: none;
+    }
+    .nav-logo{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+
+}

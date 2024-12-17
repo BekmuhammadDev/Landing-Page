@@ -84,7 +84,7 @@ const index = () => {
                                 <div className='powerful'>
                                     <div className="powerful-right">
 
-                                        <div>
+                                        <div className="powerful-text">
                                             <h1>Light, Fast & Powerful</h1>
                                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo <br /> ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis <br /> dis parturient montes, nascetur ridiculus <br /><br />
                                                 mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. <br /> Nulla consequat massa quis enim.</p>
